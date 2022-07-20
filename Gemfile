@@ -73,4 +73,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "forest_liana", path: "../../forest/forest-rails"
+gem "forest_liana", "~> 7.6.8"
