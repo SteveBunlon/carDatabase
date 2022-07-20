@@ -1,3 +1,4 @@
 class User < UserRecord
-    has_one :car, through: :car, disable_joins: true
+    has_one :car
+    belongs_to :garage
 end
