@@ -14,10 +14,10 @@ default: &default
   password: secret
 
 development:
-  user:
+  userDatabase:
     <<: *default
     database: multiDB1
-  car:
+  carDatabase:
     <<: *default
     database: multiDB2
 

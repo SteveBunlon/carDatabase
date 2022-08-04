@@ -1,3 +1,27 @@
+PATH
+  remote: ../../forest/forest-rails
+  specs:
+    forest_liana (7.6.11)
+      arel-helpers
+      bcrypt
+      forestadmin-jsonapi-serializers (>= 0.14.0)
+      groupdate (>= 5.0.0)
+      httparty
+      ipaddress
+      json
+      json-jwt
+      jwt
+      openid_connect
+      rack-cors
+      rails (>= 4.0)
+      useragent
+
+PATH
+  remote: ../CarDatabase
+  specs:
+    car_database (0.1.0)
+      rails (>= 7.0.3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,20 +119,6 @@ GEM
       reline (>= 0.3.1)
     digest (3.1.0)
     erubi (1.10.0)
-    forest_liana (7.6.8)
-      arel-helpers
-      bcrypt
-      forestadmin-jsonapi-serializers (>= 0.14.0)
-      groupdate (>= 5.0.0)
-      httparty
-      ipaddress
-      json
-      json-jwt
-      jwt
-      openid_connect
-      rack-cors
-      rails (>= 4.0)
-      useragent
     forestadmin-jsonapi-serializers (2.0.0.pre.beta.2)
       activesupport
     globalid (1.0.0)
@@ -290,8 +300,9 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  car_database!
   debug
-  forest_liana (~> 7.6.8)
+  forest_liana!
   importmap-rails
   jbuilder
   pg
